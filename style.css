@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    font-family: 'Times new roman';
+    font-style: normal;
+    font-weight: bold;
+    color: rgba(109, 8, 25, 0.692);
+    text-align: center;
+}
+
+h1 img{
+    width: 40px;
+    position: relative;
+    right: 0px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background: linear-gradient(to top, #cfd9cf,);
+    font-family: 'Times New Roman';
+}
+.todo-app{
+    width: 200%;
+    max-width: 540px;
+    background: #cfd9cf;
+    margin: 150px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #1301052d;
+    border-top: 5px;
+    }
+     
+    .head{
+        background: transparent;
+        padding: 5px 7px 8px;
+        margin-left: auto;
+        color: white;
+        position: relative;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px;
+    }
+
+    ul{
+        display: flex;
+        gap: 30px;
+
+    }
+
+    li{
+        font-size: 25px;
+        color: blanchedalmond;
+        font-weight: bold;
+        align-items: center;
+
+
+    }
+
+    input{
+        font-size:18px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        flex-grow: 1;
+        background: transparent;
+    }
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: 5px;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+
+.row_value{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    flex-grow: 1;
+    cursor: inherit;
+}
+
+.row_checkbox{
+    cursor: inherit;
+}
+.row:has(.row_checkbox:checked){
+        text-decoration: line-through 1.5px;
+        order: 1;
+
+    }
+    
+
+
+
+
+
+
+
+
